@@ -224,13 +224,11 @@ footer div {
 #phone-number::after {
     content: " (+40) 729 189 132";
     visibility: visible;
-  }
+}
   
-  #phone-number {
-    visibility: ;
-  }
-
-
+#phone-number {
+    user-select: none;
+}
 
 @media (max-width: 768px) {
     .container {
